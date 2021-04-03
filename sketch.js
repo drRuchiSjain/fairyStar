@@ -47,6 +47,7 @@ function draw() {
 	star.y= starBody.position.y 
   
 	console.log(star.y);
+	console.log(star.x);
   
 	if(star.y > 470 && starBody.position.y > 470 ){
 		Matter.Body.setStatic(starBody,true);
